@@ -1,4 +1,4 @@
-package palindrome-checker
+package palindromeChecker
 
 func Reverse(s string) (result string) {
 	for _,v := range s {
