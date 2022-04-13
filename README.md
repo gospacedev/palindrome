@@ -3,7 +3,7 @@ Checks if a word is a palindrome
 
 ## Install
 
-    go get github.com/gocrazygh/puede
+    go get -u github.com/gocrazygh/puede
 
 ## Example
 
