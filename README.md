@@ -1,5 +1,5 @@
 # puede
-Checks if a word is a palindrome
+A palindrome string checker
 
 ## Install
 
