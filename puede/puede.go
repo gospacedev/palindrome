@@ -1,4 +1,4 @@
-package pwmd
+package puede
 
 //Reverses every character in the string
 func Reverse(s string) (result string){
