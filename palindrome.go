@@ -1,7 +1,5 @@
 package palindrome
 
-import "fmt"
-
 //Reverses every character in the string
 func Reverse(s string) (result string) {
 	for _,v := range s {
