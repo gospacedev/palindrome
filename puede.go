@@ -8,7 +8,7 @@ func Reverse(s string) (result string){
 	return 
     }
 
-//Check checks if the string is same as it is reversed
+//Check if the string is same as it is reversed
 func Check(s string) (b bool){
 	a := Reverse(s)
 	if s == a{
