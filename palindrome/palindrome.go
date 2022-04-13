@@ -1,4 +1,4 @@
-package main
+package palindrome
 
 import "fmt"
 
@@ -9,16 +9,11 @@ func Reverse(s string) (result string) {
 	return 
     }
 
-func ifPalindrome(s string) (b bool) {
+func checkPwnd(s string) (b bool) {
 	a := Reverse(s)
 	if s == a{
 		return true
 	}else {
 		return false
 	}
-}
-
-func main(){
-	a := ifPalindrome("racecar")
-	fmt.Println(a)
 }
