@@ -15,3 +15,7 @@ func ifPalindrome(s string) (b bool) {
 		return false
 	}
 }
+
+func main() {
+	
+}
