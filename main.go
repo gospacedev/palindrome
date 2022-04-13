@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func Reverse(s string) (result string) {
 	for _,v := range s {
 	  result = string(v) + result
@@ -16,8 +14,4 @@ func ifPalindrome(s string) (b bool) {
 	}else {
 		return false
 	}
-}
-
-func main() {
-	fmt.Println(ifPalindrome("racecar"))
 }
