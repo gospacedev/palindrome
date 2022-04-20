@@ -1,4 +1,4 @@
-# puede
+# palindrome
 A palindrome string checker
 
 ## Install
