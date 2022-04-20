@@ -1,4 +1,4 @@
-package puede
+package pal
 
 //Reverses every character in the string
 func Reverse(s string) (result string){
