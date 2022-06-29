@@ -3,7 +3,7 @@ A palindrome string checker
 
 ## Install
 
-    go get -u github.com/gocrazygh/puede
+    go get -u github.com/gocrazygh/palindrome
 
 ## Example
 
@@ -13,12 +13,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocrazygh/puede"
+	"github.com/gocrazygh/palindrome"
 )
 
 func main() {
-	a := puede.Check("racecar")
-	b := puede.Reverse("drawer")
+	a := pal.Check("racecar")
+	b := pal.Reverse("drawer")
 	fmt.Println(a)
 	fmt.Println(b)
 }
