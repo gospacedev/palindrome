@@ -3,7 +3,7 @@ A palindrome string checker
 
 ## Install
 
-    go get -u github.com/gocrazygh/palindrome
+    go get -u github.com/gocrazygth/palindrome
 
 ## Example
 
@@ -13,7 +13,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocrazygh/palindrome"
+	"github.com/gocrazygth/palindrome"
 )
 
 func main() {
